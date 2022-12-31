@@ -1,2 +1,4 @@
-# My-DevOps-Learnings
-This repository records my DevOps Learnings.👩‍💻
+# My DevOps Learnings 🌱
+
+This repository records all of my DevOps Learnings. 
+
