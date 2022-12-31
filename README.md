@@ -35,3 +35,8 @@ I'm gonna be following this amazing [DevOps Bootcamp](https://www.youtube.com/pl
 - [ ] Cloud native tools
 
 - [ ] Chaos engineering
+
+
+#### [Cloud Native Computing Foundation (CNCF) Landscape](https://landscape.cncf.io)
+ 
+![CNCF Landscape](/Assets/Screenshot%202022-12-31%20at%205.16.45%20PM.png)
