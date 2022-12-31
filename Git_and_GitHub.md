@@ -18,3 +18,12 @@
 
 - [Install Git](https://git-scm.com) on your system. (GUI Clients - not recommended)
 
+### Terminal Commands
+
+Terminal helps us to manipulate the file structure on our system.
+
+- `ls` - List all files and folders in the current directory.
+
+- `mkdir folder_name` - Make a new directory with the specified *folder_name*.
+
+- `cd folder_name` - Change directory to the specified *folder_name*.
