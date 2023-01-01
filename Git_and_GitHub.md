@@ -37,3 +37,8 @@ Terminal helps us to manipulate the file structure on our system.
 
 - `git add .` - Put all the untracked files in the staging area.
 
+- `git commit -m "commit message"` - Commit the changes in the staging area with a commit message.
+
+- `git log` - To see the commit history.
+
+- `git restore --staged file_name` - To unstage a file, back as untracked.
