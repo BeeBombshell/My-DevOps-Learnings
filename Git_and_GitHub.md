@@ -18,7 +18,7 @@
 
 - [Install Git](https://git-scm.com) on your system. (GUI Clients - not recommended)
 
-### Terminal Commands
+## Terminal Commands
 
 Terminal helps us to manipulate the file structure on our system.
 
@@ -27,3 +27,13 @@ Terminal helps us to manipulate the file structure on our system.
 - `mkdir folder_name` - Make a new directory with the specified *folder_name*.
 
 - `cd folder_name` - Change directory to the specified *folder_name*.
+
+
+## Git Commands
+
+- `git init` - Initialize an empty Git repository.
+
+- `git status` - To know if the changes added have been reflected in the staging area.
+
+- `git add .` - Put all the untracked files in the staging area.
+
