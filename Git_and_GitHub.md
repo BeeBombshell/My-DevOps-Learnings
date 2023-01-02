@@ -83,3 +83,5 @@ Terminal helps us to manipulate the file structure on our system.
 To request your changes from a branch in your repository to be merged into the main branch of the original repository.
 
 After pushing, go to GitHub and create a PR from your branch to the original project.
+
+![PR](./Assets/Compare-and-PR.png)
