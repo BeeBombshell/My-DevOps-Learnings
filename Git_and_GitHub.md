@@ -60,3 +60,20 @@ Terminal helps us to manipulate the file structure on our system.
         ```git
         git remote add upstream "Original repository URL"
         ```
+
+- Make different branch for changes/feature you want to add.
+    ```git
+    git checkout -b "branch_name"
+    ```
+
+- Stage files using `git add .` 
+
+- Commit changes with a commit message.
+    ```git
+    git commit -m "commit message"
+    ```
+
+- Push changes to your forked repository.
+    ```git
+    git push origin "branch_name"
+    ```
