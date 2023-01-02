@@ -42,3 +42,9 @@ Terminal helps us to manipulate the file structure on our system.
 - `git log` - To see the commit history.
 
 - `git restore --staged file_name` - To unstage a file, back as untracked.
+
+## Working with existing projects on GitHub
+
+- Fork the repository to your GitHub account.
+
+- Clone the repository to your local system.
