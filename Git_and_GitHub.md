@@ -119,3 +119,19 @@ After pushing, go to GitHub and create a PR from your branch to the original pro
 - `git reset --hard upstream/main` - To reset the main branch to the original repository.
 
 - `git push origin main` - Now our main branch is in sync with the original repository (upstream main).
+
+
+## Merge Conflicts and Squash Commits
+
+To squash commits in 1 single commit, use the following command:
+```git
+git rebase -i "commit_id"
+```
+Where the   `commit_id` is the commit id of the commit before the first commit you want to squash.
+
+This will open an editor with all the commits you want to squash. 
+
+Change the word `pick` to `squash` for all the commits you want to squash.
+All the the `squash` commits will be squashed in `pick` one.
+
+Then add a message, and all the commits will be merged.
