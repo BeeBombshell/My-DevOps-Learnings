@@ -107,3 +107,15 @@ After pushing, go to GitHub and create a PR from your branch to the original pro
     ```git
     git push origin master
     ```
+
+## Branches
+
+- **Default** -  `Main` or `Master` Branch.
+
+- **New Feature** - New branches for new features.
+
+- `git merge` - To merge a feature branch into the main branch.
+
+- `git reset --hard upstream/main` - To reset the main branch to the original repository.
+
+- `git push origin main` - Now our main branch is in sync with the original repository (upstream main).
