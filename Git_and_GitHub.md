@@ -48,3 +48,5 @@ Terminal helps us to manipulate the file structure on our system.
 - Fork the repository to your GitHub account.
 
 - Clone the repository to your local system.
+
+![Clone URL](./Assets/Screenshot%202023-01-02%20at%2011.19.22%20PM.png)
