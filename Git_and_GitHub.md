@@ -85,3 +85,25 @@ To request your changes from a branch in your repository to be merged into the m
 After pushing, go to GitHub and create a PR from your branch to the original project.
 
 ![PR](./Assets/Compare-and-PR.png)
+
+
+## Creating git project
+
+- Create a new repository on GitHub.
+
+- Copy its URL (HTTPS or SSH).
+
+- In CLI, in the project directory, run the following command.
+    ```git
+    git remote add origin "URL"
+    ```
+
+- To view all remotes:
+    ```git
+    git remote -v
+    ```
+
+- To push changes to the remote repository:
+    ```git
+    git push origin master
+    ```
