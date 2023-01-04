@@ -135,3 +135,28 @@ Change the word `pick` to `squash` for all the commits you want to squash.
 All the the `squash` commits will be squashed in `pick` one.
 
 Then add a message, and all the commits will be merged.
+
+
+## Fetching and Pulling
+
+To keep your local repository up-to-date with the remote repository.
+
+```git
+git fetch --all --prune
+```
+
+Here, 
+
+`--all` fetches all the branches from the remote repository. 
+
+`--prune` removes all the branches that have been deleted from the remote repository.
+
+```
+git reset --hard origin/main
+```
+This sets the main branch to the remote main branch.
+
+```git
+git push origin main
+```
+This pushes the changes to the remote repository. Now, the local repository is in sync with the remote repository.
