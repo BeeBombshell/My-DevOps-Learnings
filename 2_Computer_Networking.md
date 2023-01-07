@@ -46,3 +46,11 @@ Cold war - United States and Soviet Union - Battle of technologies - Soviet Unio
 - Do not care whether 100% of the data is delivered or not.
 
 - Example: Video Conferencing
+
+### HTTP
+
+- Hyper Text Transfer Protocol
+
+- Used by web browsers - WWW
+
+- Defines format of the data being transferred bw clients and servers.
