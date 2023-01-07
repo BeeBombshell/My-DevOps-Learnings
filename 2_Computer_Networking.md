@@ -15,3 +15,5 @@ Cold war - United States and Soviet Union - Battle of technologies - Soviet Unio
 - Previously missing automated sharing - Here WWW (World Wide Web) was introduced - Stores documents and information - Tim Berners-Lee - Published on web servers - Based on hyperlinking of web pages.
 
 - No search engine - Couldn't search for things - Save things in indices but not search - Built search engines - Yahoo being the first
+
+- Protocols - Necessary for communication - Decisions made by the *Internet Society* - To make submissions use RFC (Request for Comments) - Idea/Features
