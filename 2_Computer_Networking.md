@@ -28,3 +28,13 @@ Cold war - United States and Soviet Union - Battle of technologies - Soviet Unio
 - A computer can be both client and server - Example: when using localhost.
 
 - Use `inspect element` to see Networks tab in Chrome - Shows requests and responses - Can see the time taken for each request.
+
+## Protocols
+
+- Set of rules - Defined by the *Internet Society*.
+
+### TCP
+
+- Transmission Control Protocol
+
+- It will ensure that the data is delivered to the destination and will not be courrupted.
