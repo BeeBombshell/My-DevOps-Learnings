@@ -38,3 +38,11 @@ Cold war - United States and Soviet Union - Battle of technologies - Soviet Unio
 - Transmission Control Protocol
 
 - It will ensure that the data is delivered to the destination and will not be courrupted.
+
+### UDP
+
+- User Datagram Protocol
+
+- Do not care whether 100% of the data is delivered or not.
+
+- Example: Video Conferencing
