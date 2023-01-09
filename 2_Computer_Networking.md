@@ -54,3 +54,12 @@ Cold war - United States and Soviet Union - Battle of technologies - Soviet Unio
 - Used by web browsers - WWW
 
 - Defines format of the data being transferred bw clients and servers.
+
+
+## How is data transfered?
+
+- Data is sent in chunks called Packets.
+
+> NOTE: Check Chrome Dev Tools > in Network Section > see all the API requests.
+
+- IP Address is like a phone number - Unique to each device.
