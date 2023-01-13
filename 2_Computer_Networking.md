@@ -58,8 +58,18 @@ Cold war - United States and Soviet Union - Battle of technologies - Soviet Unio
 
 ## How is data transfered?
 
-- Data is sent in chunks called Packets.
+- Data is sent in chunks called **Packets**.
 
 > NOTE: Check Chrome Dev Tools > in Network Section > see all the API requests.
 
 - IP Address is like a phone number - Unique to each device.
+
+### IP Address Format
+
+> X.X.X.X
+> Each X is a number between 0 and 255.
+
+Check IP Address of your computer:
+```
+$ curl ifconfig.me -s
+```
