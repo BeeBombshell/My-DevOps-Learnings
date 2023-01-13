@@ -73,3 +73,9 @@ Check IP Address of your computer:
 ```
 $ curl ifconfig.me -s
 ```
+
+### How IP Addresses are assigned?
+
+Internet Service Provider provides us with a Modem or Router - It has a global IP Address - All the devices connected to the router will have the same IP Address for everyone around the world. (Such as Printer, Mobiles, etc.)
+
+The Modem or Router will give IP Addresses to each of the devices connected to it, called the **Local IP Address**.
