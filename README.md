@@ -6,7 +6,7 @@ I'm gonna be following this amazing [DevOps Bootcamp](https://www.youtube.com/pl
 
 ## Table of Contents
 
-- [x] Introduction to Networking
+- [ ] Introduction to Networking
 
 - [ ] Introduction to Linux
 
