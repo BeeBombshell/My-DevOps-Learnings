@@ -79,3 +79,12 @@ $ curl ifconfig.me -s
 Internet Service Provider provides us with a Modem or Router - It has a global IP Address - All the devices connected to the router will have the same IP Address for everyone around the world. (Such as Printer, Mobiles, etc.)
 
 The Modem or Router will give IP Addresses to each of the devices connected to it, called the **Local IP Address**.
+
+How does the Modem assign the Local IP Addresses?
+
+Using DHCP (Dynamic Host Configuration Protocol). Set 
+of rules to assign IP Addresses.
+
+> If we make a request to Google.com, google will see the global IP Address. It will not know which device is making the request. So, it will send the response to the global IP Address. 
+
+>The Modem will then forward the response to the device that made the request using NAT(Netwrork Address Translation).
