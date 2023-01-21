@@ -88,3 +88,11 @@ of rules to assign IP Addresses.
 > If we make a request to Google.com, google will see the global IP Address. It will not know which device is making the request. So, it will send the response to the global IP Address. 
 
 >The Modem will then forward the response to the device that made the request using NAT(Netwrork Address Translation).
+
+How does the NAT know which application to forward the response to?
+
+> Let's say we're running Mongo DB, make a request, and we want the response to be forwarded to the Mongo DB application.
+
+> **IP Address** decides which device to send the data to. **Port** decides which application to send the data to.
+
+> Applications differ by the port number they use.
