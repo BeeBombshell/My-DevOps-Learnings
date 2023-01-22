@@ -93,6 +93,26 @@ How does the NAT know which application to forward the response to?
 
 > Let's say we're running Mongo DB, make a request, and we want the response to be forwarded to the Mongo DB application.
 
-> **IP Address** decides which device to send the data to. **Port** decides which application to send the data to.
+**IP Address** decides which device to send the data to. 
+
+**Port** decides which application to send the data to.
 
 > Applications differ by the port number they use.
+
+
+## Ports
+
+Ports are 16-bit numbers.
+
+> 16 cells that contain 0 or 1 -> 2^16 = 65536 total port numbers possible.
+
+All the requests made by the browser are made to port `80`. (All the HTTP Stuff)
+
+HTTP = 80
+MongoDB = 27017
+
+- All ports from 0 to 1023 are reserved ports for system use.
+
+- Ports from 1024 to 65535 are reserved for use by applications.
+
+- Remaining ports are free and can be used.
