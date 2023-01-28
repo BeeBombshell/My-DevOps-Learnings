@@ -116,3 +116,15 @@ MongoDB = 27017
 - Ports from 1024 to 65535 are reserved for use by applications.
 
 - Remaining ports are free and can be used.
+
+Your Computer -> Internet Service Provider (ISP) -> Another Computer
+
+- 1 mbps -> 1 mega bits per second -> 1 million bits per second. (10^6)
+
+- 1 gbps -> 10^9 bits per second. [Very Fast]
+
+- 1 kbps -> 10^3 bits per second. [Very Slow]
+
+Upload -> When you send data to the internet.
+
+Download -> When you receive data from the internet.
