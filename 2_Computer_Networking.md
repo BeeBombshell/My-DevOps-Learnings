@@ -189,3 +189,5 @@ Connect LAN to WAN (internet).
 ### Modem
 Used to convert digital signals to analog signals and vice versa.
 
+### Router
+Routes the data packets based on their IP Addresses.
