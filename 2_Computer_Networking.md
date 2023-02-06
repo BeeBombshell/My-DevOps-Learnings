@@ -186,3 +186,6 @@ Connect LAN to WAN (internet).
 
 > Internet is a collection of LANs, MANs, WANs. Connecting Local Area Networks to Wide Area Networks.
 
+### Modem
+Used to convert digital signals to analog signals and vice versa.
+
