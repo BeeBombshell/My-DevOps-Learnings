@@ -128,3 +128,31 @@ Your Computer -> Internet Service Provider (ISP) -> Another Computer
 Upload -> When you send data to the internet.
 
 Download -> When you receive data from the internet.
+
+
+## Communication between two computers
+
+- Guided way - Set of path already defined - Example: Telephone lines.
+- Unguided way - No path defined - Example: Radio waves, Bluetooth.
+
+### How are countried connected with each other?
+
+Go to: https://www.submarinecablemap.com
+
+Wires across the ocean - Single wire across continents
+
+> Google owns a lot of them.
+
+#### Guided 
+
+- Optical Fiber
+- Coaxial
+
+#### Wireless
+
+- Bluetooth
+- WiFi
+- 3G
+- 4G
+- LTE
+- 5G
