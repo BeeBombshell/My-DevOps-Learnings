@@ -156,3 +156,33 @@ Wires across the ocean - Single wire across continents
 - 4G
 - LTE
 - 5G
+
+> Cables are faster than satellites.
+
+
+## Connections
+
+### LAN (Local Area Network)
+
+- For small house / office.
+- In an area.
+- Connect as many devices as you want.
+- Connect via Ethernet cable, Wifi.
+
+### MAN (Metropolitan Area Network)
+
+- Areas of a city.
+
+### WAN (Wide Area Network)
+
+- Across Countries.
+- Using optical fiber cables.
+
+#### SONET (Synchronous Optical Network)
+Carries data using optical fibre cables.
+
+#### Frame Relay
+Connect LAN to WAN (internet).
+
+> Internet is a collection of LANs, MANs, WANs. Connecting Local Area Networks to Wide Area Networks.
+
