@@ -119,6 +119,10 @@ MongoDB = 27017
 
 Your Computer -> Internet Service Provider (ISP) -> Another Computer
 
+> Tier 1 ISP - Tata (In India) (Tata has a long cable from Chennai to Singapore)
+
+> Tier 2 ISP - Airtel (In India)
+
 - 1 mbps -> 1 mega bits per second -> 1 million bits per second. (10^6)
 
 - 1 gbps -> 10^9 bits per second. [Very Fast]
@@ -191,3 +195,14 @@ Used to convert digital signals to analog signals and vice versa.
 
 ### Router
 Routes the data packets based on their IP Addresses.
+
+## Topologies
+
+### Bus Topology
+Every system connected to a Backbone cable.
+
+```
+    *        *
+*------------------*
+  *      *      *
+```
