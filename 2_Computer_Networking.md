@@ -206,3 +206,8 @@ Every system connected to a Backbone cable.
 *------------------*
   *      *      *
 ```
+CONS: 
+
+- Backbone gets broken, all the systems are down.
+
+- Only one system can transmit data at a time.
