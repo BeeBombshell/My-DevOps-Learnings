@@ -211,3 +211,22 @@ CONS:
 - Backbone gets broken, all the systems are down.
 
 - Only one system can transmit data at a time.
+
+
+### Ring Topology
+
+Every system communicates with one another.
+
+```
+    *  ---- *
+  /            \  
+*                *
+ \              /
+     * ---- *
+```
+
+CONS: 
+
+- If one system fails, all the systems are down.
+
+- Lot of unnecessary calls between systems.
