@@ -230,3 +230,22 @@ CONS:
 - If one system fails, all the systems are down.
 
 - Lot of unnecessary calls between systems.
+
+
+### Star Topology
+
+All computers connected to a central hub.
+
+```
+         *
+         |
+         |
+  *----- * ------*
+         |
+         |
+         *
+```
+
+CONS:
+
+- If the hub fails, all the systems are down.
