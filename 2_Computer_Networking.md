@@ -249,3 +249,26 @@ All computers connected to a central hub.
 CONS:
 
 - If the hub fails, all the systems are down.
+
+### Tree Topology (Combination of Bus and Star)
+
+Many stars connected to a bus topology. 
+
+```
+         *
+         |          *
+         |         /
+  *----- * ------* ---- *
+         |        \
+         |          *
+         *
+         |
+         |
+         *
+        /  \
+       *    *
+```
+
+PROS:
+
+- More fault tolerance.
