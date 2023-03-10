@@ -272,3 +272,20 @@ Many stars connected to a bus topology.
 PROS:
 
 - More fault tolerance.
+
+### Mesh Topology
+
+Every system connected to every other system.
+
+```
+   *  ---- *  ---- *
+   |     /       /
+   |   /      /
+   | /    /
+   * /
+```
+
+CONS:
+
+- Very expensive.
+- Scalability is an issue.
