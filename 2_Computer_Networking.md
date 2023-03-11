@@ -289,3 +289,16 @@ CONS:
 
 - Very expensive.
 - Scalability is an issue.
+
+
+# Structure of the Network
+
+> Example:
+You order food, restaurant sends the order to the kitchen, kitchen sends the order to the delivery guy, delivery guy delivers the food to you.
+
+> Example:
+You order something online. Amazon gets the order, sends the order to the delivery company, delivery company transports it. Arrived in India, assigns it to the delivery company resoponsible. Delivery company delivers the order to you.
+
+This is how we can imagine internet.
+
+The Application Layer is where you order stuff. (via application)
