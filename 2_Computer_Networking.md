@@ -302,3 +302,24 @@ You order something online. Amazon gets the order, sends the order to the delive
 This is how we can imagine internet.
 
 The Application Layer is where you order stuff. (via application)
+
+
+## OSI Model (Open Systems Interconnection Model)
+
+This is how the internet works.
+
+OSI Model is a standard model how two or more computers communicate with each other.
+
+There are 7 layers in the OSI Model.
+
+1. Application Layer
+2. Presentation Layer
+3. Session Layer
+4. Transport Layer
+5. Network Layer
+6. Data Link Layer
+7. Physical Layer
+
+> Most important topic for interviews.
+
+Every layer has different set of protocols and devices being used.
