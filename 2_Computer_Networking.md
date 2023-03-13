@@ -323,3 +323,17 @@ There are 7 layers in the OSI Model.
 > Most important topic for interviews.
 
 Every layer has different set of protocols and devices being used.
+
+### Application Layer
+
+Implemented in software. In the application (browser, messaging apps, etc.)
+
+Send message to presentation layer.
+
+**Application Layer Protocols**
+- HTTP
+- FTP
+- SMTP
+- DNS
+- Telnet
+
