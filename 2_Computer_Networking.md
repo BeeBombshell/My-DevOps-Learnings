@@ -337,3 +337,22 @@ Send message to presentation layer.
 - DNS
 - Telnet
 
+### Presentation Layer
+
+Takes the data from the application layer.
+
+Data is in form of Words, Characters, Numbers, etc.
+Presentation layer converts data into binary (machine readable format).
+
+- From ASCII to EBCDIC.
+
+- Called **Translation of data**.
+
+- Goes under **Encoding** and **Encryption**, so that it is only readable to the person that the data was sent to.
+
+- Also provides **Abstraction**.
+
+Presentation layer assumes that if the data is sent downward, it will take care of it.
+
+> Encryption, Compression, Translation.
+
