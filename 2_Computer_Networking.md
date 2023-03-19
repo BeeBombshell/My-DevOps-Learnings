@@ -356,3 +356,8 @@ Presentation layer assumes that if the data is sent downward, it will take care 
 
 > Encryption, Compression, Translation.
 
+**Presentation Layer Protocols**
+
+- SSL (Secure Socket Layer) - For encryption decryption.
+
+Data is sent to the session layer.
