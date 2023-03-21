@@ -361,3 +361,11 @@ Presentation layer assumes that if the data is sent downward, it will take care 
 - SSL (Secure Socket Layer) - For encryption decryption.
 
 Data is sent to the session layer.
+
+### Session Layer
+
+Helps in setting up and managing the connections, including sending and receiving data, followed by termination of the session.
+
+> Servers ask for username and password - that is **Authentication** - after that **Authorization** is done - Permission to access the data on the server.
+
+Session layer assumes that if the data is sent downward, it will take care of it. (Basically all layers are independent of each other.)
