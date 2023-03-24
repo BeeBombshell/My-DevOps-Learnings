@@ -369,3 +369,22 @@ Helps in setting up and managing the connections, including sending and receivin
 > Servers ask for username and password - that is **Authentication** - after that **Authorization** is done - Permission to access the data on the server.
 
 Session layer assumes that if the data is sent downward, it will take care of it. (Basically all layers are independent of each other.)
+
+### Transport Layer
+
+Data is sent from the Session Layer to the Transport Layer.
+
+Has UDP and TCP protocols to transfer data to another computer.
+
+**TCP (Transmission Control Protocol)**
+- Correction oriented transmission.
+- TCP is slower than UDP.
+- Sends acknowledgement to the sender to confirm that the data has been received.
+
+**UDP (User Datagram Protocol)**
+- Correction-less oriented transmission.
+- UDP is faster than TCP.
+- Data packets get lost or corrupted.
+Doesn't perform error checking.
+- Eg: Video streaming, Voice over IP.
+
