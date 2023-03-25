@@ -388,3 +388,24 @@ Has UDP and TCP protocols to transfer data to another computer.
 Doesn't perform error checking.
 - Eg: Video streaming, Voice over IP.
 
+Contains 3 steps:
+
+#### 1. Segmentation 
+
+- Data is broken into smaller chunks called **Segments**.
+
+- Each segment has **source and destination's Port Number**, a **Sequence Number**.
+
+- **Sequence Number** is used to reassemble the data in the correct order. (Chunks)
+
+#### 2. Flow Control
+
+- Transport layer controls the amount of data being transported.
+
+> If server has 40mbps and client has 10mbps, then it wont work.
+
+#### 3. Error Control
+
+- Data packets got lost or corrupted.
+
+- Adds **Checksum** to the data packets to see if data is good or not.
