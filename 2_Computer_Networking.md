@@ -409,3 +409,18 @@ Contains 3 steps:
 - Data packets got lost or corrupted.
 
 - Adds **Checksum** to the data packets to see if data is good or not.
+
+
+### Network Layer
+
+Works for transmission of the received data segments from one computer to another. (Located in a different network)
+
+- Router lies in the Network Layer.
+
+**FUNCTIONS**:
+
+- Logical addressing.
+- Every computer has a unique IP Address. Network layer assigns the senders and receivers IP Addresses to every Segment. (Forms an IP Packet)
+- Every data packet can reach its destination.
+- Performs **Routing** - Decides the best path to reach the destination.
+- **Load Balancing** - Divides the load between the servers. Makes sure that the servers are not overloaded.
