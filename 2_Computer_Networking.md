@@ -424,3 +424,26 @@ Works for transmission of the received data segments from one computer to anothe
 - Every data packet can reach its destination.
 - Performs **Routing** - Decides the best path to reach the destination.
 - **Load Balancing** - Divides the load between the servers. Makes sure that the servers are not overloaded.
+
+
+### Data Link Layer
+
+Allows you to directly communicate with Hosts and Computers.
+
+Does 2 kinds of Addressing:
+
+- Logical Addressing - At the Network layer about IP Address.
+
+        EXAMPLE:
+
+        - Source IP Address (192.168.1.1)
+        - Destination IP Address (192.168.2.1)
+        - Via Facebook (192.168.3.1)
+
+        > Computer A has IP Address (192.168.1.1) sends data to Facebook Server having IP (192.168.3.1).
+
+    Every packet has:
+    - a source IP Address
+    - a destination IP Address 
+    - a Subnet Mask.
+
