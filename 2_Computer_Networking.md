@@ -447,3 +447,20 @@ Does 2 kinds of Addressing:
     - a destination IP Address 
     - a Subnet Mask.
 
+- Physical Addressing - At the Data Link Layer about MAC Address.
+
+    Now, MAC Address is assigned to every packet, to form a **Frame**.
+
+    Frame is a data unit of the Data Link Layer.
+
+    MAC Address is a 12 digit alphanumeric number of the network interface of your computer.
+
+    > Your computer's Bluetooth has a different MAC Address, WiFi might have a different one, etc.
+
+    Every packet has:
+    - a source MAC Address
+    - a destination MAC Address
+
+- Data Link Layer also controls how data is placed and received from the media. 
+
+- Uses Media Access Control (MAC) protocols. To get things on and off of the media + Error detection.
