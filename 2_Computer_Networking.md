@@ -464,3 +464,36 @@ Does 2 kinds of Addressing:
 - Data Link Layer also controls how data is placed and received from the media. 
 
 - Uses Media Access Control (MAC) protocols. To get things on and off of the media + Error detection.
+
+
+### Physical Layer
+
+Contains hardware, mechanical medium, wires, etc.
+
+Converts the data into electrical signals.
+
+When Reverting back:
+When the data is received, it is converted into bits, pass to data link layer as a Frame.
+
+```
+
+YOU                     FRIEND
+ |                        |
+Application          Application
+  |                       |
+Presentation        Presentation
+  |                       |
+Session                Session
+  |                       |
+Transport             Transport
+(Divides data             |
+into Packets)             |
+  |                       |
+Network                Network
+(Adds IP Address)         |
+  |                       |
+Data Link             Data Link
+(Adds MAC Address)
+  |                      |
+Physical ------------ Physical
+(Router)              (Friend's Router)
