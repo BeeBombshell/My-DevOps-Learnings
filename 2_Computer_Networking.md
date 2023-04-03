@@ -497,3 +497,17 @@ Data Link             Data Link
   |                      |
 Physical ------------ Physical
 (Router)              (Friend's Router)
+```
+
+## TCP/IP Model (Internet Protocol Suite)
+
+Similar to OSI Model.
+Layers are reduced to 5.
+
+1. Application Layer
+2. Transport Layer
+3. Network Layer
+4. Data Link Layer
+5. Physical Layer
+
+Used practically (The OSI model is used more conceptually).
