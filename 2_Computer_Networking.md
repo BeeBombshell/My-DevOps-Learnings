@@ -511,3 +511,18 @@ Layers are reduced to 5.
 5. Physical Layer
 
 Used practically (The OSI model is used more conceptually).
+
+More detailed discussion about the different layers:
+
+### Application Layer
+
+- Main layer for interactions with users.
+
+- Consists of applications like web browsers, email clients, etc.
+Eg: WhatsApp, Browsers, etc.
+
+- Where: On your Devices.
+
+- Protocols
+
+- Client-Server Architecture
