@@ -526,3 +526,16 @@ Eg: WhatsApp, Browsers, etc.
 - Protocols
 
 - Client-Server Architecture
+
+#### Client - Server Architecture
+
+```
+Client ---sends request---> Server
+Client <---sends response--- Server
+```
+
+- Client Part and Server Side part (Processes that communicate with each other)
+
+- Servers should have High Availability and a Reliable IP Address to serve clients.
+
+- Clients are ones using these resources.
