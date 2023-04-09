@@ -539,3 +539,12 @@ Client <---sends response--- Server
 - Servers should have High Availability and a Reliable IP Address to serve clients.
 
 - Clients are ones using these resources.
+
+- Collection of servers (in a big company lets say) is called **Data Centers**.
+
+> Type in your terminal: `ping google.com`
+
+![Ping](./Assets/Screenshot%202023-04-22%20at%206.44.00%20PM.png)
+
+> Every packet has a size of 64 bytes.
+> Contains IP Addresses of Google Servers.
