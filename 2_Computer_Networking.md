@@ -548,3 +548,6 @@ Client <---sends response--- Server
 
 > Every packet has a size of 64 bytes.
 > Contains IP Addresses of Google Servers.
+
+**Ping**: The round-trip time for messages sent from the originating host to a destination computer that are echoed back to the source.
+(Best possible time, cannot be improved)
