@@ -551,3 +551,17 @@ Client <---sends response--- Server
 
 **Ping**: The round-trip time for messages sent from the originating host to a destination computer that are echoed back to the source.
 (Best possible time, cannot be improved)
+
+#### Peer to Peer Architecture (P2P)
+
+- Applications get connected to each other directly.
+
+- No central server.
+
+ADVANTAGE:
+- Can be scaled rapidly.
+- Decentralized Network.
+
+Every single computer is a client and a server.
+
+> Eg: BitTorrent
