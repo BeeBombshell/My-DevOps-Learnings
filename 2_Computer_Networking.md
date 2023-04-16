@@ -565,3 +565,13 @@ ADVANTAGE:
 Every single computer is a client and a server.
 
 > Eg: BitTorrent
+
+
+## Networking Devices
+
+### Repeater
+- Operates at Physical Layer.
+- Regenerates the signal over the network.
+- Doesn't amplify the signal.
+- When the signal gets weak, it regenerates the signal to its original strength.
+- Its a 2 port device.
