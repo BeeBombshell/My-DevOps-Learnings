@@ -575,3 +575,11 @@ Every single computer is a client and a server.
 - Doesn't amplify the signal.
 - When the signal gets weak, it regenerates the signal to its original strength.
 - Its a 2 port device.
+
+
+### Hub
+- Multi-port repeater.
+- Regenrates signals over the same network when the signal gets weak.
+- Connects multiple wires comming from different branches
+- Cannot filter data.
+- Doesn't have any intelligence to find out the best path for data packets.
