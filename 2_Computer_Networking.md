@@ -583,3 +583,8 @@ Every single computer is a client and a server.
 - Connects multiple wires comming from different branches
 - Cannot filter data.
 - Doesn't have any intelligence to find out the best path for data packets.
+
+2 types of hubs:
+
+1. **Active Hub** - Have their own power supply, can clean boost and relay.
+2. **Passive Hub** - Doesn't have their own power supply, colect wriring from nodes and power supply from the active hub.
