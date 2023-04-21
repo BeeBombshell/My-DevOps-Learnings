@@ -588,3 +588,9 @@ Every single computer is a client and a server.
 
 1. **Active Hub** - Have their own power supply, can clean boost and relay.
 2. **Passive Hub** - Doesn't have their own power supply, colect wriring from nodes and power supply from the active hub.
+
+### Bridge
+
+- Operates at Data Link Layer.
+- Type of Repeater, but it can filter data.
+- It can filter data based on MAC Address.
