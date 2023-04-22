@@ -594,3 +594,8 @@ Every single computer is a client and a server.
 - Operates at Data Link Layer.
 - Type of Repeater, but it can filter data.
 - It can filter data based on MAC Address.
+
+### Switch
+- Multi-port bridge.
+- Operates at Data Link Layer.
+- Can perform error checking before forwarding the data.
