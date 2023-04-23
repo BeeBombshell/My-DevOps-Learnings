@@ -599,3 +599,7 @@ Every single computer is a client and a server.
 - Multi-port bridge.
 - Operates at Data Link Layer.
 - Can perform error checking before forwarding the data.
+
+### Router
+- Operates at Network Layer.
+- Normally connect LANs and WANs.
