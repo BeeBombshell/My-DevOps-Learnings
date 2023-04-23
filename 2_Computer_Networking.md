@@ -610,3 +610,16 @@ Every single computer is a client and a server.
 
 ### Brouter
 - Bridge + Router.
+
+
+## Protocols
+
+### On the Application Layer
+### WEB PROTOCOLS
+
+#### TCP/IP
+- HTTP (Hyper Text Transfer Protocol)
+- DHCP (Dynamic Host Configuration Protocol)
+- FTP (File Transfer Protocol)
+- SMTP (Simple Mail Transfer Protocol) - Sending Emails
+- POP3 (Post Office Protocol 3) and IMAC (Internet Message Access Protocol) - Receiving Emails
