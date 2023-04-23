@@ -603,3 +603,10 @@ Every single computer is a client and a server.
 ### Router
 - Operates at Network Layer.
 - Normally connect LANs and WANs.
+
+### Gateway
+- Passage to connect 2 different networks that operate on different protocols or Networking Models.
+- Eg: Connecting a LAN to the Internet.
+
+### Brouter
+- Bridge + Router.
