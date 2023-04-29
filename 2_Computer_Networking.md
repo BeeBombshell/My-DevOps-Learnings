@@ -627,3 +627,21 @@ Every single computer is a client and a server.
 - VNC (Virtual Network Computing) - Remote Desktop Graphical control
 - Telnet - Terminal emulation - `Port 23` - Manage account or device remotely - Not encoded or encrypted.
 - UDP (User Datagram Protocol) - Stateless connection - Data might be lost.
+
+
+## How applications communicate with each other?
+
+Program: WhatsApp - has processes, lets say "Send a Message" and "Record a Video" - one program has many processes.
+
+- **Thread** - Thread is a sequence of instructions within a program that can be executed independently of other code. A single process can have multiple threads.
+
+Eg: "Send a message" has a thread for "Setting up the connection", "Sending the message", "Receiving the message", etc.
+
+Communicate via IP Addresses and Port Numbers.
+
+- **Sockets** - Send messages from one system to another system. (Its a software component that allows 2 processes to communicate with each other) - Interface bw processes and the internet.
+
+- **Ports** - IP address tell which device to send the data to, Port tells which application to send the data to.
+
+Eg: Many tabs of Google Chrome open. Deliver the message to which instance / tab?
+- Ephemeral Ports - does the job of identifying the application - When the application is no longer using the Ephermal Port, it is released and can be used by other applications. (Exist on the client side)
