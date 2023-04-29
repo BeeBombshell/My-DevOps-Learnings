@@ -623,3 +623,7 @@ Every single computer is a client and a server.
 - FTP (File Transfer Protocol)
 - SMTP (Simple Mail Transfer Protocol) - Sending Emails
 - POP3 (Post Office Protocol 3) and IMAC (Internet Message Access Protocol) - Receiving Emails
+- SSH (Secure Shell) - Remote Login into somebody else's computer.
+- VNC (Virtual Network Computing) - Remote Desktop Graphical control
+- Telnet - Terminal emulation - `Port 23` - Manage account or device remotely - Not encoded or encrypted.
+- UDP (User Datagram Protocol) - Stateless connection - Data might be lost.
