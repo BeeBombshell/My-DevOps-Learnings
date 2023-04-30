@@ -697,3 +697,11 @@ We have classes of status codes:
 - 3xx - Redirection Category
 - 4xx - Client Error Category (Something you did wrong)
 - 5xx - Server Error Category (Something the server did wrong)
+
+#### State saving behaviour - Cookies
+
+- Cookies are small pieces of data that are stored on the client side.
+
+- Unique string - stored in the browser.
+
+- When you access a website for the first time a cookie is created and stored in the browser. When you access the website again, the cookie is sent to the server and the server knows that you have visited the website before. Server checks the cookie in database and sends the response with the saved state.
