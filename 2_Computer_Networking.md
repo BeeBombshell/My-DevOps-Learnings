@@ -666,3 +666,15 @@ Eg: Many tabs of Google Chrome open. Deliver the message to which instance / tab
 - HTTP is a stateless protocol. (Doesn't remember the state of the client)
  
 > If you send the request again and again, HTTP won't classify the request as one request. It will treat it as a new request everytime.
+
+#### HTTP Method
+
+1. **GET** - Get the resource from the server.
+
+2. **POST** - Giving the data to the server.
+
+3. **PUT** - Update the resource on the server.
+
+4. **DELETE** - Delete the resource on the server.
+
+> You can access all these methods in the Network tab in your Chrome Dev Tools.
