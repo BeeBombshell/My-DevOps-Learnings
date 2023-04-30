@@ -617,7 +617,7 @@ Every single computer is a client and a server.
 ### On the Application Layer
 ### WEB PROTOCOLS
 
-#### TCP/IP
+### TCP/IP
 - HTTP (Hyper Text Transfer Protocol)
 - DHCP (Dynamic Host Configuration Protocol)
 - FTP (File Transfer Protocol)
@@ -644,4 +644,25 @@ Communicate via IP Addresses and Port Numbers.
 - **Ports** - IP address tell which device to send the data to, Port tells which application to send the data to.
 
 Eg: Many tabs of Google Chrome open. Deliver the message to which instance / tab?
-- Ephemeral Ports - does the job of identifying the application - When the application is no longer using the Ephermal Port, it is released and can be used by other applications. (Exist on the client side)
+- **Ephemeral Ports** - does the job of identifying the application - When the application is no longer using the Ephermal Port, it is released and can be used by other applications. (Exist on the client side)
+
+
+### HTTP (Hyper Text Transfer Protocol)
+
+- Client requests for a resource, Server responds with the resource. This happens with the help of HTTP.
+
+- Client Server Protocol.
+
+- Tells us how you can request for a resource and how the server should respond to the client.
+
+- Client to Server HTTP Request, Server to Client HTTP Response.
+
+- Every Application Layer protocol also requires a Transport Layer Protocol.
+
+- Get request, Post request, etc.
+
+- **TCP** is the Transport Layer Protocols used by HTTP.
+
+- HTTP is a stateless protocol. (Doesn't remember the state of the client)
+ 
+> If you send the request again and again, HTTP won't classify the request as one request. It will treat it as a new request everytime.
