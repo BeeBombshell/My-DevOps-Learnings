@@ -678,3 +678,22 @@ Eg: Many tabs of Google Chrome open. Deliver the message to which instance / tab
 4. **DELETE** - Delete the resource on the server.
 
 > You can access all these methods in the Network tab in your Chrome Dev Tools.
+
+Check out MDN Web Docs for more info about HTTP Headers.
+
+#### HTTP Status Codes
+
+Way of telling the client what happened with the request.
+
+- 200 - Successful Request
+- 404 - Not Found
+- 400 - Bad Request
+- 500 - Internal Server Error
+
+We have classes of status codes:
+
+- 1xx - Informational Category
+- 2xx - Success Category
+- 3xx - Redirection Category
+- 4xx - Client Error Category (Something you did wrong)
+- 5xx - Server Error Category (Something the server did wrong)
