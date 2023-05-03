@@ -705,3 +705,13 @@ We have classes of status codes:
 - Unique string - stored in the browser.
 
 - When you access a website for the first time a cookie is created and stored in the browser. When you access the website again, the cookie is sent to the server and the server knows that you have visited the website before. Server checks the cookie in database and sends the response with the saved state.
+
+![](./assets/set-cookies.png)
+
+Whenever a server wants to set a cookie, it uses a tag called `set-cookie`. (See image above)
+
+ It contains url, name, path, also has Expiration Date. (Cookies Expire)
+
+ Sometimes cookies can be misused by websites to track whenever you visit their website.
+
+ - **Third Party Cookies** : Cookies are set for URLs that do not visit.
