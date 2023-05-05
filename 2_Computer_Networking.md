@@ -715,3 +715,26 @@ Whenever a server wants to set a cookie, it uses a tag called `set-cookie`. (See
  Sometimes cookies can be misused by websites to track whenever you visit their website.
 
  - **Third Party Cookies** : Cookies are set for URLs that do not visit.
+
+
+ ### Emails
+
+ #### How Emails Work?
+
+ - SMTP, POP3 - Application layer protocol.
+
+ - TCP - Transport layer protocol. (Data gets lost in UDP)
+
+ > While sending an email from gmail to yahoo
+
+>  SENDER -> SENDER'S SMTP SERVER -> (data is transfered) -> RECEIVER'S SMTP SERVER -> RECEIVER (downloads emails from server)
+
+> If Gmail to Gmail, which means if the sender and receiver are on the same server then the above does not happen.
+
+- **Name Server Lookup**: Type the following command in your terminal:
+```
+nslookup -type=mx gmail.com
+```
+
+Output:
+![](./Assets/nslookup.png)
