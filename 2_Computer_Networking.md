@@ -738,3 +738,22 @@ nslookup -type=mx gmail.com
 
 Output:
 ![](./Assets/nslookup.png)
+
+
+#### Downloading Emails
+
+**POP** 
+- Post office protocol 
+- Cliet connects to POP server 
+- Uses PORT 110
+- Does authorization via username and password.
+
+```
+       -- Authorize --> 
+CLIENT                  POP SERVER
+      <-- Transact --- 
+```
+
+- You can then download emails, perform actions such as deleting, etc.
+
+> NOTE: The other items, such as the sent items, or drafts aren't sync using this protocol (POP).
