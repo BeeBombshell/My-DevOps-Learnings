@@ -757,3 +757,11 @@ CLIENT                  POP SERVER
 - You can then download emails, perform actions such as deleting, etc.
 
 > NOTE: The other items, such as the sent items, or drafts aren't sync using this protocol (POP).
+
+
+**IMAP**
+
+- Internet Message Access Protocol
+- Allows us to view emails on different devices.
+- Emails will be kept on servers forever.
+- Local copies will be available.
