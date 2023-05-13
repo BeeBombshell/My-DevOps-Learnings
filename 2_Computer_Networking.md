@@ -765,3 +765,16 @@ CLIENT                  POP SERVER
 - Allows us to view emails on different devices.
 - Emails will be kept on servers forever.
 - Local copies will be available.
+
+
+
+### URLS and IP Addresses
+
+**How does google.com find us a server?**
+
+- Via DNS (Domain Name System)
+- Domain names are mapped to IP Addresses.
+- Stored in Database and DNS is used to look these up.
+- When we search "www.google.com", HTTP Protocols take the domain name and find its IP Address, use DNS to connect to that server.
+- DNS is like a phone book directory.
+
