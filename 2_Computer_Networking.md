@@ -830,3 +830,13 @@ own computer -> ISP -> TLD Server
 ```
 
 > You cannot buy a domain name, you can only rent it. You have to pay a yearly fee to keep the domain name.
+
+
+To see messages received by the DNS Server, type the following command in your terminal:
+```
+dig google.com
+```
+
+`dig` -> Domain Information Groper
+
+<img src="./Assets/DNS-info-groper.png">
