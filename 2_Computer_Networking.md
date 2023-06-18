@@ -860,3 +860,27 @@ your box ---transport layer---> courier company ------network layer------> couri
 - Transport layer acts within the devices.
 
 - Transport layer gives message to Network layer.
+
+### TCP and UDP (Transport Layer Protocols)
+
+ ```
+ message -sockets->                                      ------- message
+                      Transport       Transport
+ file over mail -->     Layer     -->  Layer        -->         file over mail
+                      Multiplexer     Demultiplexer
+ voice call ------>                                             voice call
+ ```
+
+ Multiplexing allows us to send multiple messages at the same time over the same connection. (to multiple applications)
+
+ What do we use to refer applications? -> Port Numbers
+
+ Sockets -> Just like a gateway bw applications.
+
+ - Data travles in packets.
+
+ - Multiplexers attach the SOCKET PORT NUMBERS.
+
+ - Transport layer takes care of **Congestion Control**.
+
+ > Can read more about congestion oontrol algoritmns build in GCP.
