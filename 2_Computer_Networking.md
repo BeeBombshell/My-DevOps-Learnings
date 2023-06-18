@@ -499,7 +499,7 @@ Physical ------------ Physical
 (Router)              (Friend's Router)
 ```
 
-## TCP/IP Model (Internet Protocol Suite)
+# TCP/IP Model (Internet Protocol Suite)
 
 Similar to OSI Model.
 Layers are reduced to 5.
@@ -514,7 +514,7 @@ Used practically (The OSI model is used more conceptually).
 
 More detailed discussion about the different layers:
 
-### Application Layer
+## 1. Application Layer
 
 - Main layer for interactions with users.
 
@@ -527,7 +527,7 @@ Eg: WhatsApp, Browsers, etc.
 
 - Client-Server Architecture
 
-#### Client - Server Architecture
+### Client - Server Architecture
 
 ```
 Client ---sends request---> Server
@@ -552,7 +552,7 @@ Client <---sends response--- Server
 **Ping**: The round-trip time for messages sent from the originating host to a destination computer that are echoed back to the source.
 (Best possible time, cannot be improved)
 
-#### Peer to Peer Architecture (P2P)
+### Peer to Peer Architecture (P2P)
 
 - Applications get connected to each other directly.
 
@@ -840,3 +840,23 @@ dig google.com
 `dig` -> Domain Information Groper
 
 <img src="./Assets/DNS-info-groper.png">
+
+
+## Transport Layer
+
+**Role of the Transport Layer**
+- Transportation of messages is done by transport layer.
+
+- From Network to Application -> Done by Transport Layer.
+
+- Which application is the message for? -> Done by Transport Layer.
+
+- Provides abstraction.
+
+```
+your box ---transport layer---> courier company ------network layer------> courier company of receiver ----transport layer----> receiver's box
+```
+
+- Transport layer acts within the devices.
+
+- Transport layer gives message to Network layer.
