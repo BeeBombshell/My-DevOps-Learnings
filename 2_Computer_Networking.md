@@ -801,3 +801,32 @@ Multiple database for these 3 categories.
 > Check out https://root-servers.org/ for more info about Root DNS Servers and locations.
 <img src="./Assets/root-servers.png">
 
+- ICAN - Internet Corporation for Assigned Names and Numbers (They register top level domains)
+
+
+**How does google.com find us a server?** (Continued)
+
+- User types google.com in the browser.
+
+- Browser checks the local cache for the IP Address for google.com
+(In your own computer so that you dont have to search again and again)
+
+- If not found, it checks the local DNS Server. (Local DNS Server is the first point of contact - for eg: your ISP)
+
+> 💡 Does not matter if you use incognito mode, your ISP knows everything you do. In case a mishap your ISP is liable to provide the information to the government.
+
+- If not found, it checks the Root DNS Server. (TLD)
+
+- If not found, ISP checks the Top Level Domain Server. (TLD)
+
+
+```
+own computer -> ISP -> Root DNS Server
+                    <-
+                (Not found, then)
+own computer -> ISP -> TLD Server
+                    <-
+                  (IP Address)
+```
+
+> You cannot buy a domain name, you can only rent it. You have to pay a yearly fee to keep the domain name.
