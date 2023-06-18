@@ -777,4 +777,27 @@ CLIENT                  POP SERVER
 - Stored in Database and DNS is used to look these up.
 - When we search "www.google.com", HTTP Protocols take the domain name and find its IP Address, use DNS to connect to that server.
 - DNS is like a phone book directory.
+- Database is divided into classes
+
+```
+mail.google.com
+____ ______ ___
+
+here,
+mail - subdomain
+google - second level domain
+com - top level domain
+```
+
+Multiple database for these 3 categories.
+
+#### Root DNS Servers (TLD - Top Level Domain)
+
+- First level of contact
+- Root level domains are stored here.
+- EG: .io, .com, .org, etc.
+- Each have second level domains (SLD) - like google.com, student.io, etc.
+
+> Check out https://root-servers.org/ for more info about Root DNS Servers and locations.
+<img src="./Assets/root-servers.png">
 
