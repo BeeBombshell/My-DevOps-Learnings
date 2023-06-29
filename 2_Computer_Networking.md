@@ -881,6 +881,8 @@ your box ---transport layer---> courier company ------network layer------> couri
 
  - Multiplexers attach the SOCKET PORT NUMBERS.
 
- - Transport layer takes care of **Congestion Control**.
+ - Transport layer takes care of **Congestion Control**. (Congestion - When packets get lost)
 
- > Can read more about congestion oontrol algoritmns build in GCP.
+ > Can read more about congestion control algoritmns build in TCP.
+
+ - Possibility that data gets lost or corrupted
