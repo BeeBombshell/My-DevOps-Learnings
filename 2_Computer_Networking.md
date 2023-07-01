@@ -886,3 +886,14 @@ your box ---transport layer---> courier company ------network layer------> couri
  > Can read more about congestion control algoritmns build in TCP.
 
  - Possibility that data gets lost or corrupted
+
+
+### Checksum
+
+- Transport layer adds checksum to the data packets to see if data is good or not.
+
+```
+message ----checksum----> receiver (checksum)
+```
+
+Both sender and reciever calculate checksum using an algo, if the is not same, then the data is corrupted. (Checksum is a string)
