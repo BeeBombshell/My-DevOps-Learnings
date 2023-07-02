@@ -897,3 +897,15 @@ message ----checksum----> receiver (checksum)
 ```
 
 Both sender and reciever calculate checksum using an algo, if the is not same, then the data is corrupted. (Checksum is a string)
+
+### Timers
+
+How would you know if your data has been recieved by the receiver?
+
+- Start the timer when the packet is sent.
+- When the confirmation arrives the timer is stopped.
+- Resets when another packet is sent.
+- If packet gets lost, timer expires and packet is sent again. (retransmission timer )
+
+[Each packet has a unique identification number]
+
