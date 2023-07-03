@@ -909,3 +909,13 @@ How would you know if your data has been recieved by the receiver?
 
 [Each packet has a unique identification number]
 
+## UDP
+
+- User Datagram Protocol
+- From Network to Transort Layer -> Done by UDP.
+- Data may or maynot be delivered.
+- Data may change on the way
+- Data may not be in order
+- Connectionless protocol
+- Uses Checksums (you'll know the data is corrupted, but wont do anything about it)
+
