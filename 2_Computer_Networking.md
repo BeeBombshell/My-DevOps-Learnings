@@ -919,3 +919,10 @@ How would you know if your data has been recieved by the receiver?
 - Connectionless protocol
 - Uses Checksums (you'll know the data is corrupted, but wont do anything about it)
 
+### UDP Packet
+
+- Every data packet has a port number, both source (`2 bytes`) and destination (`2 bytes`) - Total `4 bytes`.
+- Length of the datagram (the packet) (`2 bytes`)
+- Checksum (`2 bytes`)
+(All of the above is the header of the packet - comes along with the data)
+- Data
