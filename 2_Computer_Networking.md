@@ -926,3 +926,12 @@ How would you know if your data has been recieved by the receiver?
 - Checksum (`2 bytes`)
 (All of the above is the header of the packet - comes along with the data)
 - Data
+
+```
+TOTAL SIZE OF THE PACKET: 2^16 = 65536 bytes
+SIZE OF HEADER = 8 bytes
+MAXIMUM SIZE OF DATA = 65536 - 8 = 65528 bytes
+
+```
+
+- UDP is faster than TCP.
