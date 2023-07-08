@@ -935,3 +935,18 @@ MAXIMUM SIZE OF DATA = 65536 - 8 = 65528 bytes
 ```
 
 - UDP is faster than TCP.
+
+
+### Use cases of UDP
+- Video conferencing
+- DNS (Domain Name System) uses UDP (fast)
+- Gaming
+
+```bash
+sudo tcpdump -c 5
+```
+Displays the first 5 packets.
+
+<img src= "./Assets/tcpdump.png"> 
+
+## TCP
